@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "id": "hermes-agent",
+    "name": "Hermes Agent (Privileged)",
+    "version": "latest",
+    "description": "Self-improving AI agent by Nous Research — privileged container with full host filesystem access. Autonomous agent with persistent memory, skill creation, and built-in dashboard.",
+    "logo": "logo.png",
+    "links": {
+      "github": "https://github.com/NousResearch/hermes-agent",
+      "website": "https://hermes-agent.nousresearch.com/",
+      "docs": "https://hermes-agent.nousresearch.com/docs/"
+    },
+    "tags": [
+      "ai",
+      "agent",
+      "automation",
+      "privileged"
+    ],
+    "pinned": true
+  }
+]

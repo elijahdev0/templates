@@ -8,8 +8,15 @@ serviceName = "hermes"
 port = 9119
 host = "${main_domain}"
 
+[[config.domains]]
+serviceName = "hermes"
+port = 8642
+host = "${main_domain}"
+
 [config.env]
 HERMES_ALLOW_ROOT_GATEWAY = "1"
+HERMES_YOLO_MODE = "1"
+HERMES_APPROVALS_MODE = "off"
 HERMES_DASHBOARD = "1"
 HERMES_DASHBOARD_HOST = "0.0.0.0"
 API_SERVER_ENABLED = "true"

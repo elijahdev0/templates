@@ -1,5 +1,6 @@
 [variables]
 main_domain = "${domain}"
+api_domain = "${domain}"
 
 [config]
 
@@ -11,7 +12,7 @@ host = "${main_domain}"
 [[config.domains]]
 serviceName = "hermes"
 port = 8642
-host = "${main_domain}"
+host = "${api_domain}"
 
 [config.env]
 HERMES_ALLOW_ROOT_GATEWAY = "1"

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "cliproxyapi",
+    "name": "CLIProxyAPI",
+    "version": "v7.2.41",
+    "description": "CLIProxyAPI is a Go-based proxy server that wraps AI CLI tools (Codex, Claude Code, Grok Build, etc.) into an OpenAI/Gemini/Claude/Codex compatible API service.",
+    "logo": "logo.svg",
+    "tags": [
+      "ai",
+      "proxy",
+      "api",
+      "codex",
+      "claude",
+      "openai"
+    ],
+    "links": {
+      "github": "https://github.com/router-for-me/CLIProxyAPI",
+      "website": "https://help.router-for.me/",
+      "docs": "https://help.router-for.me/docker/docker-compose"
+    }
+  }
+]

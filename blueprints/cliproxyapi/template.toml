@@ -1,0 +1,19 @@
+[variables]
+main_domain = "${domain}"
+
+[config]
+
+[[config.domains]]
+serviceName = "cliproxyapi"
+port = 8317
+host = "${main_domain}"
+
+[[config.mounts]]
+serviceName = "cliproxyapi"
+volumeName = "cliproxyapi-auths"
+mountPath = "/root/.cli-proxy-api"
+
+[[config.mounts]]
+serviceName = "cliproxyapi"
+volumeName = "cliproxyapi-logs"
+mountPath = "/CLIProxyAPI/logs"
